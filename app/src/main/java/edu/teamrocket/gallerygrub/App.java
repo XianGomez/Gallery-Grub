@@ -1,17 +1,17 @@
 package edu.teamrocket.gallerygrub;
 
-import edu.teamrocket.galleygrub.extras.CheeseExtra;
-import edu.teamrocket.galleygrub.extras.Extra;
-import edu.teamrocket.galleygrub.extras.Regular;
-import edu.teamrocket.galleygrub.extras.SauceExtra;
-import edu.teamrocket.galleygrub.extras.SizeLargeExtra;
-import edu.teamrocket.galleygrub.items.Item;
-import edu.teamrocket.galleygrub.items.RetailPrice;
-import edu.teamrocket.galleygrub.items.Product;
-import edu.teamrocket.galleygrub.order.Comanda;
-import edu.teamrocket.galleygrub.order.Order;
-import edu.teamrocket.galleygrub.receipt.Receipt;
-import edu.teamrocket.galleygrub.receipt.Ticket;
+import edu.teamrocket.gallerygrub.extras.CheeseExtra;
+import edu.teamrocket.gallerygrub.extras.Extra;
+import edu.teamrocket.gallerygrub.extras.Regular;
+import edu.teamrocket.gallerygrub.extras.SauceExtra;
+import edu.teamrocket.gallerygrub.extras.SizeLargeExtra;
+import edu.teamrocket.gallerygrub.items.Item;
+import edu.teamrocket.gallerygrub.items.Product;
+import edu.teamrocket.gallerygrub.items.RetailPrice;
+import edu.teamrocket.gallerygrub.order.Comanda;
+import edu.teamrocket.gallerygrub.order.Order;
+import edu.teamrocket.gallerygrub.receipt.Receipt;
+import edu.teamrocket.gallerygrub.receipt.Ticket;
 
 /**
  * 

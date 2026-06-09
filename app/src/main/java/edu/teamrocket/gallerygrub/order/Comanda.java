@@ -1,23 +1,11 @@
 package edu.teamrocket.gallerygrub.order;
 
-import java.util.HashMap;
-import java.util.Map;
 
-public class Comanda {
-    protected Map<String,Double> pedido = new HashMap<>();
+public interface Comanda {
 
-    Comanda() {};
 
-    public void addItem(String item, double prize) {
-        pedido.put(item, prize);
-    }
+    public void addItem(String item, double prize);
 
-    public void display() {
-        System.out.println("\n\t --- ORDER ---");
-        pedido.entrySet().stream()
-                         .forEach(entry -> System.out.println(
-                            "\t"+ entry.getKey() + "...."+entry.getValue()));
-        
-    }
+    public void display();
 
 }

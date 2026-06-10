@@ -15,7 +15,13 @@ public class Order implements Comanda{
         System.out.println("\n\t --- ORDER ---");
         pedido.entrySet().stream()
                          .forEach(entry -> System.out.println(
-                            "\t"+ entry.getKey() + "...."+entry.getValue()));
+                            "\t"+ entry.getKey() + "...."+entry.getValue() + "$"));
         
     }
+
+    @Override
+    public Map<String, Double> getPedido() {
+        return this.pedido;
+    }
+
 }

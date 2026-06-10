@@ -2,5 +2,6 @@ package edu.teamrocket.gallerygrub.receipt;
 
 public interface Ticket {
 
-    public void total();
+    public Double total();
+    public void print();
 }

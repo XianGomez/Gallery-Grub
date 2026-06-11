@@ -20,4 +20,8 @@ public class RetailPrice {
                          .forEach(entry -> System.out.println(
                                         "\t"+ entry.getKey() + "-"+entry.getValue()));
     }
+
+    public static double getPrice(String extra) {
+        return prices.getOrDefault(extra, 0.0);
+    }
 }
